@@ -1,0 +1,568 @@
+{
+  "planos": [
+    {
+      "id": "unimed",
+      "name": "Unimed",
+      "type": "Operadora",
+      "coverage": "Nacional",
+      "networkSize": 12000,
+      "services": ["Hospitalar", "Ambulatorial", "Odontológico"],
+      "rating": 4.3,
+      "description": "Grande rede cooperativa de operadoras regionais. Rede ampla e forte presença em muitas cidades.",
+      "advantages": ["Rede extensa", "Planos regionais fortes"],
+      "disadvantages": ["Preços variáveis por região"],
+      "contact": "0800-UNIMED",
+      "precos": {
+        "individual": {
+          "0-18": 166.20,
+          "19-23": 200.27,
+          "24-28": 241.30,
+          "29-33": 262.43,
+          "34-38": 283.51,
+          "39-43": 325.05,
+          "44-48": 407.94,
+          "49-53": 477.05,
+          "54-58": 572.86,
+          "59+": 994.37
+        },
+        "familiar": {
+          "0-18": 226.28,
+          "19-23": 272.66,
+          "24-28": 328.77,
+          "29-33": 357.30,
+          "34-38": 385.98,
+          "39-43": 442.50,
+          "44-48": 555.60,
+          "49-53": 649.50,
+          "54-58": 780.30,
+          "59+": 1353.82
+        },
+        "empresarial": {
+          "0-18": 126.31,
+          "19-23": 152.21,
+          "24-28": 183.45,
+          "29-33": 199.45,
+          "34-38": 215.41,
+          "39-43": 247.14,
+          "44-48": 310.04,
+          "49-53": 362.43,
+          "54-58": 435.73,
+          "59+": 755.73
+        }
+      }
+    },
+    {
+      "id": "casu-plano1",
+      "name": "CASU Plano 1",
+      "type": "Operadora",
+      "coverage": "Regional",
+      "networkSize": 2500,
+      "services": ["Ambulatorial", "Hospitalar", "Obstetrícia"],
+      "rating": 4.0,
+      "description": "Plano com cobertura em grupo de municípios, oferecendo atendimento ambulatorial e hospitalar com obstetrícia.",
+      "advantages": ["Bom custo-benefício", "Cobertura obstétrica inclusa"],
+      "disadvantages": ["Cobertura regional limitada"],
+      "contact": "0800-CASU01",
+      "registroANS": "457435/08-4",
+      "precos": {
+        "individual": {
+          "0-18": 114,
+          "19-23": 137,
+          "24-28": 165,
+          "29-33": 179,
+          "34-38": 194,
+          "39-43": 222,
+          "44-48": 279,
+          "49-53": 326,
+          "54-58": 392,
+          "59+": 400
+        },
+        "familiar": {
+          "0-18": 155,
+          "19-23": 187,
+          "24-28": 225,
+          "29-33": 244,
+          "34-38": 264,
+          "39-43": 303,
+          "44-48": 380,
+          "49-53": 444,
+          "54-58": 534,
+          "59+": 545
+        },
+        "empresarial": {
+          "0-18": 91,
+          "19-23": 110,
+          "24-28": 132,
+          "29-33": 143,
+          "34-38": 155,
+          "39-43": 178,
+          "44-48": 223,
+          "49-53": 261,
+          "54-58": 314,
+          "59+": 320
+        }
+      }
+    },
+    {
+      "id": "casu-plano2",
+      "name": "CASU Plano 2",
+      "type": "Operadora",
+      "coverage": "Regional",
+      "networkSize": 2000,
+      "services": ["Ambulatorial", "Hospitalar", "Obstetrícia"],
+      "rating": 3.8,
+      "description": "Plano econômico com cobertura em grupo de municípios, ideal para quem busca custo-benefício.",
+      "advantages": ["Preço competitivo", "Cobertura obstétrica"],
+      "disadvantages": ["Rede mais restrita"],
+      "contact": "0800-CASU02",
+      "registroANS": "457436/08-2",
+      "precos": {
+        "individual": {
+          "0-18": 93,
+          "19-23": 112,
+          "24-28": 135,
+          "29-33": 146,
+          "34-38": 158,
+          "39-43": 181,
+          "44-48": 227,
+          "49-53": 265,
+          "54-58": 319,
+          "59+": 328
+        },
+        "familiar": {
+          "0-18": 127,
+          "19-23": 153,
+          "24-28": 184,
+          "29-33": 200,
+          "34-38": 216,
+          "39-43": 248,
+          "44-48": 310,
+          "49-53": 362,
+          "54-58": 435,
+          "59+": 447
+        },
+        "empresarial": {
+          "0-18": 74,
+          "19-23": 90,
+          "24-28": 108,
+          "29-33": 117,
+          "34-38": 126,
+          "39-43": 145,
+          "44-48": 182,
+          "49-53": 212,
+          "54-58": 255,
+          "59+": 262
+        }
+      }
+    },
+    {
+      "id": "unimed-plano1",
+      "name": "UNIMED Plano 1",
+      "type": "Operadora",
+      "coverage": "Regional",
+      "networkSize": 3500,
+      "services": ["Ambulatorial", "Hospitalar", "Obstetrícia"],
+      "rating": 4.2,
+      "description": "Plano regional da UNIMED com ampla rede credenciada e cobertura completa.",
+      "advantages": ["Rede credenciada ampla", "Atendimento de qualidade"],
+      "disadvantages": ["Valor mais elevado nas faixas superiores"],
+      "contact": "0800-UNIMED1",
+      "precos": {
+        "individual": {
+          "0-18": 105,
+          "19-23": 126,
+          "24-28": 152,
+          "29-33": 165,
+          "34-38": 178,
+          "39-43": 204,
+          "44-48": 256,
+          "49-53": 299,
+          "54-58": 359,
+          "59+": 598
+        },
+        "familiar": {
+          "0-18": 143,
+          "19-23": 172,
+          "24-28": 207,
+          "29-33": 225,
+          "34-38": 243,
+          "39-43": 278,
+          "44-48": 349,
+          "49-53": 408,
+          "54-58": 490,
+          "59+": 815
+        },
+        "empresarial": {
+          "0-18": 84,
+          "19-23": 101,
+          "24-28": 122,
+          "29-33": 132,
+          "34-38": 142,
+          "39-43": 163,
+          "44-48": 205,
+          "49-53": 239,
+          "54-58": 287,
+          "59+": 478
+        }
+      }
+    },
+    {
+      "id": "unimed-plano2",
+      "name": "UNIMED Plano 2",
+      "type": "Operadora",
+      "coverage": "Regional",
+      "networkSize": 4000,
+      "services": ["Ambulatorial", "Hospitalar", "Obstetrícia"],
+      "rating": 4.4,
+      "description": "Plano premium da UNIMED com rede estendida e benefícios adicionais.",
+      "advantages": ["Rede premium", "Cobertura ampliada"],
+      "disadvantages": ["Preço mais elevado"],
+      "contact": "0800-UNIMED2",
+      "precos": {
+        "individual": {
+          "0-18": 147,
+          "19-23": 177,
+          "24-28": 213,
+          "29-33": 231,
+          "34-38": 250,
+          "39-43": 286,
+          "44-48": 359,
+          "49-53": 419,
+          "54-58": 504,
+          "59+": 836
+        },
+        "familiar": {
+          "0-18": 200,
+          "19-23": 241,
+          "24-28": 290,
+          "29-33": 315,
+          "34-38": 340,
+          "39-43": 390,
+          "44-48": 489,
+          "49-53": 571,
+          "54-58": 687,
+          "59+": 1140
+        },
+        "empresarial": {
+          "0-18": 118,
+          "19-23": 142,
+          "24-28": 170,
+          "29-33": 185,
+          "34-38": 200,
+          "39-43": 229,
+          "44-48": 287,
+          "49-53": 335,
+          "54-58": 403,
+          "59+": 669
+        }
+      }
+    },
+    {
+      "id": "qualicorp",
+      "name": "Qualicorp Administradora de Benefícios S.A",
+      "type": "Administradora",
+      "coverage": "Nacional",
+      "networkSize": 8000,
+      "services": ["Hospitalar", "Ambulatorial"],
+      "rating": 3.9,
+      "description": "Administradora que oferece acesso a vários planos através de contratos coletivos.",
+      "advantages": ["Soluções corporativas", "negociação em volume"],
+      "disadvantages": ["Nem sempre é operadora direta"],
+      "contact": "0800-QUALIC",
+      "precos": {
+        "individual": {
+          "0-18": 120,
+          "19-23": 144,
+          "24-28": 173,
+          "29-33": 188,
+          "34-38": 203,
+          "39-43": 233,
+          "44-48": 292,
+          "49-53": 341,
+          "54-58": 410,
+          "59+": 900
+        },
+        "familiar": {
+          "0-18": 164,
+          "19-23": 197,
+          "24-28": 236,
+          "29-33": 257,
+          "34-38": 277,
+          "39-43": 318,
+          "44-48": 398,
+          "49-53": 465,
+          "54-58": 559,
+          "59+": 1227
+        },
+        "empresarial": {
+          "0-18": 96,
+          "19-23": 115,
+          "24-28": 138,
+          "29-33": 150,
+          "34-38": 162,
+          "39-43": 186,
+          "44-48": 234,
+          "49-53": 273,
+          "54-58": 328,
+          "59+": 720
+        }
+      }
+    },
+    {
+      "id": "benevix",
+      "name": "Benevix Administradora de Benefícios",
+      "type": "Administradora",
+      "coverage": "Regional",
+      "networkSize": 1200,
+      "services": ["Ambulatorial", "Odontológico"],
+      "rating": 3.6,
+      "description": "Foco em soluções regionais e empresariais com opções econômicas.",
+      "advantages": ["Preço competitivo", "foco em pequenas empresas"],
+      "disadvantages": ["Rede menor que grandes operadoras"],
+      "contact": "0800-BENEVX",
+      "precos": {
+        "individual": {
+          "0-18": 80,
+          "19-23": 96,
+          "24-28": 115,
+          "29-33": 125,
+          "34-38": 135,
+          "39-43": 155,
+          "44-48": 194,
+          "49-53": 227,
+          "54-58": 272,
+          "59+": 450
+        },
+        "familiar": {
+          "0-18": 109,
+          "19-23": 131,
+          "24-28": 157,
+          "29-33": 171,
+          "34-38": 184,
+          "39-43": 211,
+          "44-48": 265,
+          "49-53": 309,
+          "54-58": 372,
+          "59+": 614
+        },
+        "empresarial": {
+          "0-18": 64,
+          "19-23": 77,
+          "24-28": 92,
+          "29-33": 100,
+          "34-38": 108,
+          "39-43": 124,
+          "44-48": 155,
+          "49-53": 181,
+          "54-58": 218,
+          "59+": 360
+        }
+      }
+    },
+    {
+      "id": "elo",
+      "name": "Elo Administradora de Benefícios Ltda",
+      "type": "Administradora",
+      "coverage": "Nacional",
+      "networkSize": 4200,
+      "services": ["Hospitalar", "Ambulatorial", "Urgência"],
+      "rating": 4.0,
+      "description": "Oferece planos por adesão e coletivos, com foco em serviços digitais.",
+      "advantages": ["Plataforma digital", "bom atendimento"],
+      "disadvantages": ["Rede ainda em expansão em algumas regiões"],
+      "contact": "0800-ELO",
+      "precos": {
+        "individual": {
+          "0-18": 100,
+          "19-23": 120,
+          "24-28": 144,
+          "29-33": 156,
+          "34-38": 169,
+          "39-43": 194,
+          "44-48": 243,
+          "49-53": 284,
+          "54-58": 341,
+          "59+": 700
+        },
+        "familiar": {
+          "0-18": 136,
+          "19-23": 164,
+          "24-28": 196,
+          "29-33": 213,
+          "34-38": 230,
+          "39-43": 264,
+          "44-48": 331,
+          "49-53": 387,
+          "54-58": 465,
+          "59+": 954
+        },
+        "empresarial": {
+          "0-18": 80,
+          "19-23": 96,
+          "24-28": 115,
+          "29-33": 125,
+          "34-38": 135,
+          "39-43": 155,
+          "44-48": 194,
+          "49-53": 227,
+          "54-58": 273,
+          "59+": 560
+        }
+      }
+    },
+    {
+      "id": "servix",
+      "name": "Servix Administradora de Benefícios Sociedade Simples",
+      "type": "Administradora",
+      "coverage": "Regional",
+      "networkSize": 900,
+      "services": ["Ambulatorial"],
+      "rating": 3.4,
+      "description": "Pequena administradora regional com planos econômicos para pequenas empresas.",
+      "advantages": ["Custo baixo"],
+      "disadvantages": ["Cobertura limitada"],
+      "contact": "0800-SERVIX",
+      "precos": {
+        "individual": {
+          "0-18": 70,
+          "19-23": 84,
+          "24-28": 101,
+          "29-33": 109,
+          "34-38": 118,
+          "39-43": 135,
+          "44-48": 170,
+          "49-53": 198,
+          "54-58": 238,
+          "59+": 400
+        },
+        "familiar": {
+          "0-18": 95,
+          "19-23": 115,
+          "24-28": 138,
+          "29-33": 149,
+          "34-38": 161,
+          "39-43": 184,
+          "44-48": 231,
+          "49-53": 270,
+          "54-58": 324,
+          "59+": 545
+        },
+        "empresarial": {
+          "0-18": 56,
+          "19-23": 67,
+          "24-28": 81,
+          "29-33": 87,
+          "34-38": 94,
+          "39-43": 108,
+          "44-48": 136,
+          "49-53": 159,
+          "54-58": 190,
+          "59+": 320
+        }
+      }
+    },
+    {
+      "id": "allcare",
+      "name": "Allcare Administradora de Serviços em Saúde Ltda",
+      "type": "Administradora",
+      "coverage": "Nacional",
+      "networkSize": 2600,
+      "services": ["Hospitalar", "Odontológico", "Telemedicina"],
+      "rating": 4.1,
+      "description": "Produtos focados em pessoa física e pequenas empresas, com telemedicina inclusa.",
+      "advantages": ["Telemedicina", "planos flexíveis"],
+      "disadvantages": ["Rede hospitalar menor que grandes operadoras"],
+      "contact": "0800-ALLCARE",
+      "precos": {
+        "individual": {
+          "0-18": 110,
+          "19-23": 132,
+          "24-28": 158,
+          "29-33": 172,
+          "34-38": 186,
+          "39-43": 213,
+          "44-48": 267,
+          "49-53": 312,
+          "54-58": 375,
+          "59+": 650
+        },
+        "familiar": {
+          "0-18": 150,
+          "19-23": 180,
+          "24-28": 216,
+          "29-33": 235,
+          "34-38": 254,
+          "39-43": 291,
+          "44-48": 365,
+          "49-53": 426,
+          "54-58": 512,
+          "59+": 886
+        },
+        "empresarial": {
+          "0-18": 88,
+          "19-23": 106,
+          "24-28": 127,
+          "29-33": 138,
+          "34-38": 149,
+          "39-43": 170,
+          "44-48": 214,
+          "49-53": 250,
+          "54-58": 300,
+          "59+": 520
+        }
+      }
+    },
+    {
+      "id": "extramed",
+      "name": "Extramed Administração e Serviços Ltda",
+      "type": "Administradora",
+      "coverage": "Regional",
+      "networkSize": 600,
+      "services": ["Ambulatorial"],
+      "rating": 3.2,
+      "description": "Alternativa econômica regional, normalmente usada por cooperativas locais.",
+      "advantages": ["Muito acessível"],
+      "disadvantages": ["Rede restrita"],
+      "contact": "0800-EXTRA",
+      "precos": {
+        "individual": {
+          "0-18": 60,
+          "19-23": 72,
+          "24-28": 86,
+          "29-33": 94,
+          "34-38": 101,
+          "39-43": 116,
+          "44-48": 146,
+          "49-53": 170,
+          "54-58": 204,
+          "59+": 350
+        },
+        "familiar": {
+          "0-18": 82,
+          "19-23": 98,
+          "24-28": 118,
+          "29-33": 128,
+          "34-38": 138,
+          "39-43": 158,
+          "44-48": 199,
+          "49-53": 232,
+          "54-58": 279,
+          "59+": 477
+        },
+        "empresarial": {
+          "0-18": 48,
+          "19-23": 58,
+          "24-28": 69,
+          "29-33": 75,
+          "34-38": 81,
+          "39-43": 93,
+          "44-48": 117,
+          "49-53": 136,
+          "54-58": 163,
+          "59+": 280
+        }
+      }
+    }
+  ]
+}
+
